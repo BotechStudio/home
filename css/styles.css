@@ -6901,7 +6901,7 @@ button.bg-primary:hover {
 }
 
 .bg-secondary {
-    background-color: #daffdc !important
+    background-color: #fff !important
 }
 
 a.bg-secondary:focus,
@@ -10834,6 +10834,18 @@ a.text-dark:hover {
     }
 }
 
+.page-section-subtitle {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+
+@media (min-width:992px) {
+    .page-section-subtitle {
+        font-size: 2rem;
+        line-height: 2rem
+    }
+}
+
 .divider-custom {
     margin: 1.25rem 0 1.5rem;
     width: 100%;
@@ -10917,7 +10929,7 @@ a.text-dark:hover {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #fff
+    color: #1abc9c77
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -11007,7 +11019,7 @@ a.text-dark:hover {
 }
 
 .portfolio .portfolio-item {
-    cursor: pointer;
+    /* cursor: pointer; */
     position: relative;
     display: block;
     max-width: 25rem;
@@ -11029,6 +11041,23 @@ a.text-dark:hover {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem
+}
+
+.portfolio .portfolio-item .portfolio-item-caption-mod {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transition: all .2s ease-in-out; */
+    opacity: 0;
+    background-color: rgba(26, 188, 156, .9)
+}
+
+.portfolio .portfolio-item .portfolio-item-caption-mod:hover {
+    /* opacity: 1 */
+}
+
+.portfolio .portfolio-item .portfolio-item-caption-mod .portfolio-item-caption-mod-content {
     font-size: 1.5rem
 }
 
@@ -11116,7 +11145,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 #brandImage {
-    height: 2rem
+    height: 3rem
 }
 
 .portfolio {
