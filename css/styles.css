@@ -10846,6 +10846,18 @@ a.text-dark:hover {
     }
 }
 
+.page-section-subtitle-7 {
+    font-size: 1rem;
+    line-height: 2rem
+}
+
+@media (min-width:992px) {
+    .page-section-subtitle-7 {
+        font-size: 1.4rem;
+        line-height: 2rem
+    }
+}
+
 .divider-custom {
     margin: 1.25rem 0 1.5rem;
     width: 100%;
