@@ -30,6 +30,11 @@
     $('.js-scroll-trigger').click(function() {
       $('.navbar-collapse').collapse('hide');
     });
+
+    // Carousel options
+    $('.carousel').carousel({
+      interval: 1000
+    })
   
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
