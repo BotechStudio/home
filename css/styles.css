@@ -11173,6 +11173,10 @@ form .row:first-child .floating-label-form-group {
     height: 3rem
 }
 
+#brandImageMini {
+    width: 40px
+}
+
 .portfolio {
     padding-top: 6rem;
     padding-bottom: 4.5rem
