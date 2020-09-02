@@ -192,6 +192,18 @@ a {
     background-color: transparent
 }
 
+.white {
+    color: #fff;
+}
+
+.apply {
+    margin-top: 50px;
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 a:hover {
     color: #117964;
     text-decoration: underline
